@@ -21,3 +21,7 @@ function calcularPrecoComDesconto(float $precoProduto) {
     $desconto = 15;
     return $precoProduto - ($precoProduto * $desconto / 100);
 }
+
+function calcularPrecoComDesconto(float $precoProduto, $desconto) {
+    return $precoProduto - ($precoProduto * $desconto / 100);
+}
