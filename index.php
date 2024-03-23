@@ -1,3 +1,5 @@
 <?php
 
-echo "Olá mundo, vamos aprender git e github";
+include 'funcoes.php';
+
+echo obterIniciais("Renan Clemonini");
