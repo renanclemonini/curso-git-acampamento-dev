@@ -6,5 +6,5 @@ function obterIniciais(string $nomeCompleto) {
         return $nome[0]; 
     }, $partes);
 
-    return implode("", $iniciais);
+    return strtolower(implode("", $iniciais));
 }
