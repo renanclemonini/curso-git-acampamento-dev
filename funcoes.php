@@ -16,3 +16,8 @@ function calcularPercentual($total, $percentual) {
 function calcularArea($base, $altura) {
     return $base * $altura;
 }
+
+function calcularPrecoComDesconto(float $precoProduto) {
+    $desconto = 15;
+    return $precoProduto - ($precoProduto * $desconto / 100);
+}
