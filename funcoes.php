@@ -8,3 +8,7 @@ function obterIniciais(string $nomeCompleto) {
 
     return implode("", $iniciais);
 }
+
+function calcularPercentual($total, $percentual) {
+    return $total * $percentual / 100;
+}
