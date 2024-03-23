@@ -12,3 +12,7 @@ function obterIniciais(string $nomeCompleto) {
 function calcularPercentual($total, $percentual) {
     return $total * $percentual / 100;
 }
+
+function calcularArea($base, $altura) {
+    return $base * $altura;
+}
